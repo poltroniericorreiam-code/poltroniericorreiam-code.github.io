@@ -24,3 +24,17 @@ button {
   font-size: 18px;
   border-radius: 10px;
 }
+.hero button {
+  display: block;
+  margin: 20px auto;
+}
+
+.hero p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.pricing {
+  margin-top: 30px;
+  text-align: center;
+}
