@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background:black; color:gold; text-align:center;">
+<body>
 
-    <h1>Cadastro MXP</h1>
+    <div class="login-box">
 
-    <input type="text" placeholder="Nome">
-    <br><br>
+        <!-- imagem/logo -->
+        <img src="04967e18-fe81-4756-94c1-0d94759e3223.png" width="300">
 
-    <input type="email" placeholder="Email">
-    <br><br>
+        <h1>Cadastro</h1>
 
-    <input type="password" placeholder="Criar senha">
-    <br><br>
+        <!-- nome -->
+        <input type="text" placeholder="Nome completo">
+        <br><br>
 
-    <button onclick="window.location.href='home.html'">
-        Criar Conta
-    </button>
+        <!-- telefone -->
+        <input type="text" placeholder="Telefone">
+        <br><br>
 
-    <br><br>
+        <!-- email -->
+        <input type="email" placeholder="E-mail">
+        <br><br>
 
-    <button onclick="window.location.href='login.html'">
-        Voltar para Login
-    </button>
+        <!-- senha -->
+        <input type="password" placeholder="Senha">
+        <br><br>
+
+        <!-- confirmar senha -->
+        <input type="password" placeholder="Confirmar senha">
+        <br><br>
+
+        <!-- botão cadastrar -->
+        <button onclick="window.location.href='home.html'">
+            Cadastrar
+        </button>
+
+        <br><br>
+
+        <!-- voltar login -->
+        <a href="login.html">
+            <button>Voltar para Login</button>
+        </a>
+
+    </div>
 
 </body>
+
 </html>
